@@ -10,11 +10,12 @@ source:
   sha256: c942e034ed97de2bb8aadb9aca17810543185a74ec8490819b4a730ad3d4df0a
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - nexpy = nexpy.nexpygui:main
   noarch: "python"
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  osx_is_app: True
 
 requirements:
   host:
