@@ -17,7 +17,6 @@ build:
     - nexpy = nexpy.nexpygui:main
   noarch: "python"
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
-  osx_is_app: True
 
 requirements:
   host:
