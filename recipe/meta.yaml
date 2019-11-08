@@ -8,8 +8,6 @@ package:
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NeXpy-{{ version }}.tar.gz"
   sha256: a53fc2dde709e0233504af8039f081bb4ffc3762b0359fb8434f46c307a82159
-  patches:
-    - toolbar-fix.patch
 
 build:
   number: 0
