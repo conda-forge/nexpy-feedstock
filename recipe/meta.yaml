@@ -29,7 +29,7 @@ requirements:
     - h5py
     - ipython
     - matplotlib
-    - nexusformat
+    - nexusformat >=0.5.0
     - numpy
     - pillow
     - python
