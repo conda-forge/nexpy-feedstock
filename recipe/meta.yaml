@@ -1,5 +1,5 @@
 {% set name = "nexpy" %}
-{% set version = "0.12.0" %}
+{% set version = "0.12.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,12 +7,10 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NeXpy-{{ version }}.tar.gz"
-  sha256: c942e034ed97de2bb8aadb9aca17810543185a74ec8490819b4a730ad3d4df0a
-  patches:
-    - toolbar-fix.patch
+  sha256: a53fc2dde709e0233504af8039f081bb4ffc3762b0359fb8434f46c307a82159
 
 build:
-  number: 1
+  number: 0
   entry_points:
     - nexpy = nexpy.nexpygui:main
   noarch: "python"
@@ -29,7 +27,7 @@ requirements:
     - h5py
     - ipython
     - matplotlib
-    - nexusformat
+    - nexusformat >=0.5.0
     - numpy
     - pillow
     - python
