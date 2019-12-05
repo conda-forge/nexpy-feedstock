@@ -10,7 +10,7 @@ source:
   sha256: d70d402c650a36c7dc9955a80555c50d8d4e49738082cdb6b527baaab4ae3752
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - nexpy = nexpy.nexpygui:main
   noarch: "python"
