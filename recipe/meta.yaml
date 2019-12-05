@@ -25,9 +25,10 @@ requirements:
   run:
     - ansi2html
     - h5py
+    - qtconsole
     - ipython
     - matplotlib
-    - nexusformat >=0.5.0
+    - nexusformat >=0.5.1
     - numpy
     - pillow
     - python
