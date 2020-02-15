@@ -10,7 +10,7 @@ source:
   sha256: f3d040a7f8f954ba2cca890cc534d77945993710ea50964a60c568b147b7ecd4
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - nexpy = nexpy.nexpygui:main
   noarch: "python"
@@ -27,7 +27,7 @@ requirements:
     - h5py
     - qtconsole
     - ipython
-    - matplotlib
+    - matplotlib-base
     - nexusformat >=0.5.1
     - numpy
     - pillow
