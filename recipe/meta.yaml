@@ -1,5 +1,5 @@
 {% set name = "nexpy" %}
-{% set version = "0.12.7" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NeXpy-{{ version }}.tar.gz
-  sha256: 477d27b45d71467e28d77b998cc78cfdff018fc5aad390735624a65928bd124c
+  sha256: 3a25bc5610e61aa9df2aab1f2ea0c78a2360ee012798df8e0a12f6121a828c2b
 
 build:
   number: 0
