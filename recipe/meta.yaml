@@ -19,7 +19,7 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
     - numpy
   run:
@@ -34,7 +34,7 @@ requirements:
     - lmfit
     - pylatexenc
     - pillow
-    - python
+    - python >=3.6
     - scipy
 
 test:
