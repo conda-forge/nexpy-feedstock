@@ -19,7 +19,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools
     - numpy
   run:
@@ -28,13 +28,14 @@ requirements:
     - qtconsole
     - qtpy
     - ipython
+    - ipykernel >=6.2.0
     - matplotlib
-    - nexusformat >=0.6.1
+    - nexusformat >=0.7.0
     - numpy >=1.16.0
     - lmfit >=1.0.2
     - pylatexenc
     - pillow
-    - python >=3.6
+    - python >=3.7
     - scipy
 
 test:
