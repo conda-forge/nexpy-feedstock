@@ -1,5 +1,5 @@
 {% set name = "nexpy" %}
-{% set version = "0.13.3" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NeXpy-{{ version }}.tar.gz
-  sha256: 6f8c05288488381f651833e49b1664c2d82bfc4a9387f679465cc0897ec4728a
+  sha256: 5281d85b7a71563ff281642a98ccc6ce1ad8550dbc41256b59a16728cf090f14
 
 build:
-  number: 1
+  number: 0
   entry_points:
     - nexpy = nexpy.nexpygui:main
   noarch: python
@@ -19,7 +19,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools
     - numpy
   run:
@@ -28,13 +28,14 @@ requirements:
     - qtconsole
     - qtpy
     - ipython
+    - ipykernel >=6.2.0
     - matplotlib
-    - nexusformat >=0.6.1
+    - nexusformat >=0.7.0
     - numpy >=1.16.0
     - lmfit >=1.0.2
     - pylatexenc
     - pillow
-    - python >=3.6
+    - python >=3.7
     - scipy
 
 test:
