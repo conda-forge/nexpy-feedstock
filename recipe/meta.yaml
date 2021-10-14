@@ -30,7 +30,7 @@ requirements:
     - ipython
     - ipykernel >=6.2.0
     - matplotlib
-    - nexusformat >=0.7.0
+    - nexusformat >=0.7.1
     - numpy >=1.16.0
     - lmfit >=1.0.2
     - pylatexenc
