@@ -18,21 +18,21 @@ build:
 
 requirements:
   host:
-    - pip
     - python >=3.7
-    - setuptools
-    - numpy
+    - pip
+    - setuptools >=45
+    - setuptools_scm >=6.2
   run:
     - ansi2html
-    - h5py
+    - h5py >=2.9
     - qtconsole
     - qtpy
     - ipython
-    - ipykernel >=6.2.0
     - matplotlib
-    - nexusformat >=0.7.1
-    - numpy >=1.16.0
-    - lmfit >=1.0.2
+    - mplcursors
+    - nexusformat >=0.7.2
+    - numpy
+    - lmfit >=1.0.3
     - pylatexenc
     - pillow
     - python >=3.7
@@ -43,8 +43,7 @@ test:
     - nexpy
     - nexpy.api
     - nexpy.api.frills
-    - nexpy.api.frills.functions
-    - nexpy.definitions
+    - nexpy.api.frills.models
     - nexpy.gui
     - nexpy.plugins
     - nexpy.readers
