@@ -1,5 +1,5 @@
 {% set name = "nexpy" %}
-{% set version = "0.14.4" %}
+{% set version = "0.14.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NeXpy-{{ version }}.tar.gz
-  sha256: 7ef3f6778b78bd6793e75f11d40c2a8361fa0980fea82424c0e08d356912177c
+  sha256: aae0ad66e3b8fa542e894d4a9601f360828551fa6f8417de67ff31ca5015d4eb
 
 build:
   number: 0
@@ -30,7 +30,7 @@ requirements:
     - ipython
     - matplotlib
     - mplcursors
-    - nexusformat >=0.7.2
+    - nexusformat >=0.7.5
     - numpy
     - lmfit >=1.0.3
     - pylatexenc
