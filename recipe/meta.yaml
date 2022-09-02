@@ -28,7 +28,7 @@ requirements:
     - ipykernel <=6.8 | >=16.5.2
     - ipython
     - lmfit >=1.0.3
-    - matplotlib
+    - matplotlib-base
     - mplcursors
     - nexusformat >=0.7.7
     - numpy
