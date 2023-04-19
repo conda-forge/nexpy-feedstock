@@ -38,6 +38,7 @@ requirements:
     - qtconsole
     - qtpy
     - scipy
+    - importlib-metadata
 
 test:
   imports:
@@ -62,5 +63,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - tschoonj
     - rayosborn
