@@ -30,12 +30,12 @@ requirements:
     - lmfit >=1.0.3
     - matplotlib-base
     - mplcursors
-    - nexusformat >=1.0.0
+    - nexusformat >=1.0.2
     - numpy
     - pillow
     - pylatexenc
     - python >=3.7
-    - qtconsole
+    - qtconsole >=5.4.3
     - qtpy
     - scipy
     - importlib-metadata
