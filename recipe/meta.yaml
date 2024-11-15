@@ -30,7 +30,7 @@ requirements:
     - lmfit >=1.0.3
     - matplotlib-base
     - mplcursors
-    - nexusformat >=1.0.6
+    - nexusformat >=1.0.7
     - numpy
     - pillow
     - pylatexenc
