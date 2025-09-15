@@ -28,7 +28,7 @@ requirements:
     - h5py
     - ipython
     - lmfit
-    - matplotlib
+    - matplotlib-base
     - mplcursors
     - nexusformat >=2.0.0
     - numpy
