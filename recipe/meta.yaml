@@ -20,36 +20,33 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools >=45
-    - setuptools_scm >=6.2
+    - setuptools >=64
+    - setuptools_scm >=8
   run:
     - ansi2html
-    - h5py >=2.9
-    - ipykernel >=6.15.2
+    - fabio
+    - h5py
     - ipython
-    - lmfit >=1.0.3
-    - matplotlib-base
+    - lmfit
+    - matplotlib
     - mplcursors
-    - nexusformat >=1.0.7
+    - nexusformat >=2.0.0
     - numpy
+    - packaging
     - pillow
     - pylatexenc
     - python >={{ python_min }}
-    - qtconsole >=5.4.3
-    - qtpy >=2.4
+    - qtconsole
+    - qtpy
     - scipy
-    - importlib-metadata
 
 test:
   requires:
     - python {{ python_min }}
   imports:
     - nexpy
-    - nexpy.api
-    - nexpy.api.frills
-    - nexpy.api.frills.models
     - nexpy.gui
-    - nexpy.plugins
+    - nexpy.models
     - nexpy.readers
   commands:
     - nexpy --help
