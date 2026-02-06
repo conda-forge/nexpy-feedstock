@@ -30,7 +30,7 @@ requirements:
     - lmfit
     - matplotlib-base
     - mplcursors
-    - nexusformat >=2.0.0
+    - nexusformat >=2.0.1
     - numpy
     - packaging
     - pillow
