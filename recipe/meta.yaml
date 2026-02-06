@@ -1,5 +1,5 @@
 {% set name = "nexpy" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 044c6c769a16baaff16b83ab26fea1cedd6895cd9b25d1f10924aba87220f9e5
+  sha256: 33b22670a07f4b3508d4d681e1362ad479f90c937bb36d914f1cc58d3052c599
 
 build:
   number: 0
@@ -30,7 +30,7 @@ requirements:
     - lmfit
     - matplotlib-base
     - mplcursors
-    - nexusformat >=2.0.0
+    - nexusformat >=2.0.1
     - numpy
     - packaging
     - pillow
