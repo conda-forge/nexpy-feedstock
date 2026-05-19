@@ -48,8 +48,6 @@ test:
     - nexpy.gui
     - nexpy.models
     - nexpy.readers
-  commands:
-    - nexpy --help
 
 about:
   home: http://nexpy.github.io/nexpy/
