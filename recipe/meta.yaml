@@ -10,7 +10,7 @@ source:
   sha256: 33b22670a07f4b3508d4d681e1362ad479f90c937bb36d914f1cc58d3052c599
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - nexpy = nexpy.nexpygui:main
   noarch: python
@@ -36,7 +36,7 @@ requirements:
     - pillow
     - pylatexenc
     - python >={{ python_min }}
-    - qtconsole
+    - qtconsole-base
     - qtpy
     - scipy
 
@@ -63,3 +63,4 @@ about:
 extra:
   recipe-maintainers:
     - rayosborn
+    - willend
