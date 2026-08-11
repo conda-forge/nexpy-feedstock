@@ -10,7 +10,7 @@ source:
   sha256: ce2c75f865d57f2ceeb2c781a63021175f128d14bc6ff65b04a1dbfffa334344
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - nexpy = nexpy.nexpygui:main
   noarch: python
@@ -24,16 +24,19 @@ requirements:
     - setuptools_scm >=8
   run:
     - ansi2html
+    - darkdetect
+    - dateparser
     - fabio
     - h5py
     - ipython
     - lmfit
     - matplotlib-base
     - mplcursors
-    - nexusformat >=2.0.1
+    - nexusformat >=2.0.3
     - numpy
     - packaging
     - pillow
+    - pygments
     - pylatexenc
     - python >={{ python_min }}
     - qtconsole-base
