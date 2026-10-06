@@ -1,5 +1,5 @@
 {% set name = "nexpy" %}
-{% set version = "2.0.3" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 58b98f999be0b07faa85e8665c4bb44eb620b8157c17ead5580f1df2bebedb8f
+  sha256: 7b3c0c168b83737599f5d98d44a79afa9c24fc79b0c6106cf105ae8a607f13c6
 
 build:
   number: 0
